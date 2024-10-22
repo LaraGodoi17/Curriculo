@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial',sans-serif;
+}
+
+
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 900px;
+    padding: 5px;
+    align-items: center;
+}
+
+.menus{
+    display: flex;
+    gap: 188px;
+    list-style: none;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.quadrado{
+    background-color: #cecece;
+    width: 100%;
+    height: 350px;
+
+}
+
+.img{
+    border-radius: 30px;
+}
+
+
+.infoContato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.texto{
+
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.texto1,
+.texto2{
+    width: 50%;
+    height: 200px;
+    font-size: 17px;
+    color: black;
+    display: flex;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    text-align:justify;
+    gap: 100px;
+
+}
+
+.texto1{
+    border: darkgray 2px solid;
+}
+
+.texto2{
+    border:darkgray 2px solid ;
+}
+
+.texto3,
+.texto4{
+    width: 50%;
+    height: 200px;
+    font-size: 17px;
+    color: black;
+    display: flex;
+}
+
+.tudo5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    text-align:justify;
+    gap: 100px;
+
+}
+
+.texto3{
+    border: darkgray 2px solid;
+}
+
+.texto4{
+    border:darkgray 2px solid ;
+}
+
+
+
+.rodape{
+    background-color: dimgray;
+    height: 100px;
+    width:100%;
+}
+
+.rp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
